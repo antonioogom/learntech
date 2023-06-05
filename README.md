@@ -35,13 +35,16 @@ O login do administrador também foi enviado no formulário de entrega do
 projeto.
 
 [Acesso do administrador]
+
 Pode cadastrar e gerenciar alunos e modificar parâmetros de funciona-
 mento do site.
 
 [Acesso do professor]
+
 Pode ativar e inativar cursos, cadastrar aulas através de iframe do
 youtube e dar notas a aulunos.
 
 [Acesso do aluno]
+
 Pode acessar o curso de acordo com o cadastro e visualizar a nota que
 o professor lhe deu.
