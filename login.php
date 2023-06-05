@@ -54,15 +54,15 @@
 
                 //cria as variáveis de sessão de acordo com o resultado da query
                 $_SESSION["nome"] = $linha["nome"];
-                $_SESSION['matricula'] = $matricula; //adicionado em 03/04/2022
-                //$_SESSION["matricula"] = $linha["RA"]; //alterado em 03/04/2022 Antonio G Quadro
+                $_SESSION['matricula'] = $matricula; //adicionado em 03/04/2023
+                //$_SESSION["matricula"] = $linha["RA"]; //alterado em 03/04/2023 Antonio G Quadro
                 $_SESSION["codtipouser"] = $linha["codtipouser"];
-                //$raALUNO = $linha["RA"]; //alterado em 03/04/2022 Antonio G Quadro
+                //$raALUNO = $linha["RA"]; //alterado em 03/04/2023 Antonio G Quadro
                 $codtipouser = $linha["codtipouser"];
 
                 if ($linha['codtipouser'] == 1){
 
-                    //$QueryCodCurso = "SELECT CODCURSO FROM ALUNOS WHERE RA = $raALUNO"; //alterado em 03/04/2022 Antonio G Quadro
+                    //$QueryCodCurso = "SELECT CODCURSO FROM ALUNOS WHERE RA = $raALUNO"; //alterado em 03/04/2023 Antonio G Quadro
                     $QueryCodCurso = "SELECT CODCURSO FROM ALUNOS WHERE RA = $matricula";
                     $ResultadoQueryCodCurso = mysqli_query($conn, $QueryCodCurso);
 
