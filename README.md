@@ -2,6 +2,7 @@
 ************************ ESCOLA LEARN TECH *************************
 ********************************************************************
 
+Link do site: http://learntech.freevar.com/index.php
 
 Projeto feito por:
 Antonio Lucas Gomes Quadro
